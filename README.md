@@ -5,7 +5,7 @@ Software splash screen with color cycle animation
 * [Bunifu Framework](https://bunifuframework.com/)
 * [Visual Studio](https://visualstudio.microsoft.com/)
 
-Color Cycle
+Color Cycle Animation
 ```sh
  List<Color> colors = new List<Color>();
         public Splash()
@@ -22,22 +22,12 @@ Color Cycle
             colors.Add(Color.FromArgb(95, 136, 176));
             colors.Add(Color.FromArgb(70, 175, 227));
             colors.Add(Color.FromArgb(0, 158, 71));
-
-
-
-
+            
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void BunifuClose_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
-
         }
 
         int curcolor = 0;
@@ -64,8 +54,6 @@ Color Cycle
             {
                 MessageBox.Show("Complete.");
             }
-        
-
         }
 ```
 # Preview
