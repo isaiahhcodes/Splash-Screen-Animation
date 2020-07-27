@@ -5,7 +5,7 @@ Software splash screen with color cycle animation
 * [Bunifu Framework](https://bunifuframework.com/)
 * [Visual Studio](https://visualstudio.microsoft.com/)
 
-Color Cycle Animation
+# Color Cycle Animation
 ```sh
  List<Color> colors = new List<Color>();
         public Splash()
